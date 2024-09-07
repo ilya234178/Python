@@ -88,12 +88,41 @@
 # for i in range(1, 10, 2):
 #     print(i)
 
-text = 'съешь еще этих мягких французских булок'
-print(len(text))
-print('еще' in text)
-print(text.isdigit())
-print(text.islower())
-print(text.replace('еще', 'ЕЩЕ' ))
+# text = 'съешь еще этих мягких французских булок'
 
-for c in text:
-    print(c)
+# print(len(text))
+# print('еще' in text)
+# print(text.isdigit())
+# print(text.islower())
+# print(text.replace('еще', 'ЕЩЕ' ))
+
+# for c in text:
+#     print(c)
+
+# numbers = [1,2,3,4]
+# print(numbers)
+# ran = range(1,6)
+# print(type(ran))
+# numbers = list(ran)
+# print(type(numbers))
+
+# print(numbers)
+# numbers[0] = 10
+# print(f'{len(numbers)} len')
+# print(numbers)
+# for i in numbers:
+#     i *= 2
+#     print(i)
+# print(numbers)
+
+def f(x):
+    if x ==1:
+        return 'Целое'
+    elif x == 2.3:
+        return 23
+    else:
+        return
+    
+arg = 1
+print(f(arg))
+print(type(f(arg)))
